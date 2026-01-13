@@ -1,0 +1,32 @@
+# OCaml build artifacts
+*.cmo
+*.cmi
+*.cmx
+*.o
+*.a
+*.cmxa
+*.cma
+*.exe
+
+# OCaml toplevel history
+.ocamlinit
+.ocamlhistory
+
+# OPAM
+.opam-switch/
+_opam/
+
+# Dune (if added later)
+_build/
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+*.log
