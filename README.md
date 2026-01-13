@@ -17,7 +17,7 @@ This implementation follows the INF201 project specification:
 - Players move one piece per turn
 - A move is either:
   - Unit move to a neighboring cell
-  - Jump(s) over a pivot piece, landing on a free valid cell
+  - one or more jumps over a pivot piece, landing on a free valid cell
 - Final landing must be inside the North–South diamond area
 
 ## How to run
@@ -28,9 +28,10 @@ This implementation follows the INF201 project specification:
 ```ocaml
 #use "dames_chinoises.ml";;
 ```
+Interaction is done through the OCaml toplevel by manually entering moves.
 
 ## Project structure
--```src/dames_chinoises.ml``` : main implementation
+- `src/dames_chinoises.ml` : main implementation
 
 ## Authors
 - FATHALLAH Mariam
